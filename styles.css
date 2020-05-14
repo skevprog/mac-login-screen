@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+.background-image {
+    background: url(./img/background.jpg) no-repeat center center fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    border-radius: 6px;
+    border: none;
+    width: 140px;
+    padding: 0.2em 0.4em;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    font-size: 1.2em;
+    color: rgb(170, 171, 175);
+    position: fixed;
+}
+
+.arrow {
+    height: 27px;
+    width: 27px;
+    background-color: rgba(170, 171, 175, 0.66);
+    margin-left: 6.5em;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.hide {
+    display: none;
+}
